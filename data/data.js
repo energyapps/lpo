@@ -21,6 +21,7 @@ var data = {
         "gen_energy": "",
         "node": "851121",
         "type": "1703",
+        "type2":"secondbutton",
         "no_proj": ""
       }
     },
@@ -44,6 +45,7 @@ var data = {
         "gen_energy": "",
         "node": "851126",
         "type": "1703",
+        "type2":"secondbutton",
         "no_proj": ""
       }
     },
@@ -67,6 +69,7 @@ var data = {
         "gen_energy": "",
         "node": "851136",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -90,6 +93,7 @@ var data = {
         "gen_energy": "",
         "node": "851146",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -113,6 +117,7 @@ var data = {
         "gen_energy": "",
         "node": "851151",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -136,6 +141,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851156",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -159,6 +165,7 @@ var data = {
         "gen_energy": "",
         "node": "no",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -182,6 +189,7 @@ var data = {
         "gen_energy": "",
         "node": "no",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -205,6 +213,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851166",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -228,6 +237,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851166",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -245,12 +255,13 @@ var data = {
         "technology": "Solar Generation",
         "date": "Sep-11",
         "status": "Closed",
-        "jobs": "Oct-75",
+        "jobs": "10/75",
         "location": "Alamosa, CO",
         "loan_amt": "$90 million",
         "gen_energy": "Yes",
         "node": "851176",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -274,6 +285,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851181",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -297,6 +309,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851186",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -320,6 +333,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851201",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -343,6 +357,7 @@ var data = {
         "gen_energy": "",
         "node": "851206",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -366,6 +381,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851236",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -389,6 +405,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851251",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -412,6 +429,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851266",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -435,6 +453,7 @@ var data = {
         "gen_energy": "",
         "node": "851346",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -458,6 +477,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851356",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -481,6 +501,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851361",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -504,6 +525,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851371",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -527,6 +549,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851386",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -550,6 +573,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851386",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -573,6 +597,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851386",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -596,6 +621,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851396",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -619,6 +645,7 @@ var data = {
         "gen_energy": "",
         "node": "851406",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -642,6 +669,7 @@ var data = {
         "gen_energy": "",
         "node": "no",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -665,6 +693,7 @@ var data = {
         "gen_energy": "",
         "node": "851416",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -688,6 +717,7 @@ var data = {
         "gen_energy": "Yes",
         "node": "851421",
         "type": "1705",
+        "type2":"thirdbutton",
         "no_proj": ""
       }
     },
@@ -702,15 +732,16 @@ var data = {
       },
       "properties": {
         "name": "Fisker Automotive",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Apr-10",
         "status": "Discontinued",
-        "jobs": "300",
+        "jobs": "300/0",
         "location": "Wilmington, DE",
         "loan_amt": "$529 million",
         "gen_energy": "",
         "node": "no",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "2"
       }
     },
@@ -725,15 +756,16 @@ var data = {
       },
       "properties": {
         "name": "Ford Motor Company",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Sep-09",
         "status": "Closed",
-        "jobs": "33000",
+        "jobs": "33,000/0",
         "location": "Detroit,  MI",
         "loan_amt": "$5.907 billion",
         "gen_energy": "",
         "node": "851431",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "13"
       }
     },
@@ -748,15 +780,16 @@ var data = {
       },
       "properties": {
         "name": "Ford Motor Company",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Sep-09",
         "status": "Closed",
-        "jobs": "33000",
+        "jobs": "33,000/0",
         "location": "Kansas City, MO",
         "loan_amt": "$5.907 billion",
         "gen_energy": "",
         "node": "851431",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "13"
       }
     },
@@ -771,15 +804,16 @@ var data = {
       },
       "properties": {
         "name": "Ford Motor Company",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Sep-09",
         "status": "Closed",
-        "jobs": "33000",
+        "jobs": "33,000/0",
         "location": "Chicago, IL",
         "loan_amt": "$5.907 billion",
         "gen_energy": "",
         "node": "851431",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "13"
       }
     },
@@ -794,15 +828,16 @@ var data = {
       },
       "properties": {
         "name": "Ford Motor Company",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Sep-09",
         "status": "Closed",
-        "jobs": "33000",
+        "jobs": "33,000/0",
         "location": "Cincinnati, OH",
         "loan_amt": "$5.907 billion",
         "gen_energy": "",
         "node": "851431",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "13"
       }
     },
@@ -817,15 +852,16 @@ var data = {
       },
       "properties": {
         "name": "Nissan Borth America, Inc.",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Jan-10",
         "status": "Closed",
-        "jobs": "1300",
+        "jobs": "1,300/0",
         "location": "Smyrna, TN",
         "loan_amt": "$1.448 billion",
         "gen_energy": "",
         "node": "851436",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "2"
       }
     },
@@ -840,15 +876,16 @@ var data = {
       },
       "properties": {
         "name": "Tesia Motors",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Jan-10",
         "status": "Closed",
-        "jobs": "1500",
+        "jobs": "1,500",
         "location": "Fremont, CA",
         "loan_amt": "$465 million",
         "gen_energy": "",
         "node": "851441",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "2"
       }
     },
@@ -863,15 +900,16 @@ var data = {
       },
       "properties": {
         "name": "The Vehicle Production Group LLC",
-        "technology": "",
+        "technology": "Vehicle Manufacturing",
         "date": "Mar-11",
         "status": "Discontinued",
-        "jobs": "900",
+        "jobs": "900/0",
         "location": "Mishawaka, IN",
         "loan_amt": "$50 million",
         "gen_energy": "",
         "node": "no",
         "type": "ATVM",
+        "type2":"fourthbutton",
         "no_proj": "1"
       }
     }

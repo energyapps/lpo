@@ -6,7 +6,6 @@ display: none !important;
  width:100%;
 height:600px;
 }
-
 #z {
     bottom: 5px;
     left: 70px;
@@ -35,39 +34,46 @@ height:600px;
     float: left;
     height: 10px;
 }
-
-#zone1 {background-color: #660066; width:208px;} 
-#zone2 {background-color: #990099; width:119px;}
-#zone3 {background-color: #CC00CC; width:119px;}
-#zone4 {background-color: #ff00ff; width:54px;}
-
-.dragdealer {
-    background-color: transparent !important;
+/*typography of tooltips*/
+.leaflet-popup-content {
+    min-width: 300px;
 }
 
-.dragdealer .handle {
-    position: absolute;
-    top: 20px;
-    cursor: pointer;
-    width: 60px;
-    height: 35px;
-    background: #999;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 35px;
+.leaflet-container p {
+    margin: 0px 0px 0px!important;
+    line-height: 15px !important;
+    border-bottom: none !important;
+    padding-bottom: 2px !important; 
+    font-size: 12px !important;
+}
+
+.av-font {
+    font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+}
+
+#tiptop h2 {
     text-align: center;
-    
 }
 
-#legend {
-    right: 20px;
-    bottom: 85px;
-    font-size: 12px;
-    line-height: 16px;
-    width: 180px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+
+#tipbottom {
+    width: 100%;
+    height: 10px;
+}
+
+#styletype {
+    width: 50%;
+    float: left;
+    position: relative;
+    /*padding: 10px;*/
+}
+
+#moreinfo {
+    width: 50%;
+    float: left;
+    position: relative;
+    /*padding: 10px;*/
+    text-align: right;
 }
 
 #firstbutton {
@@ -106,6 +112,12 @@ height:600px;
     background-color: #68A8DB;
 }
 
+.buttn:hover, .buttn.active {
+    -moz-box-shadow:    inset 0 0 7px #777777;
+    -webkit-box-shadow: inset 0 0 7px #777777;
+    box-shadow:         inset 0 0 7px #777777;
+}
+
 .buttn {
     bottom: 30px;
     position: absolute;
@@ -130,11 +142,10 @@ height:600px;
     right:10px;
     position: absolute;
     z-index: 999;
-    max-width: 270px;
+    width: 420px;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
-    text-align: right;
     font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
     background-color: #999;
     background-color: rgba(0,0,0,0.6);
@@ -143,6 +154,12 @@ height:600px;
     padding-right: 10px;
     padding-left: 10px;
 }
+
+#info-right, #info-left {
+    width: 50%;
+    float: left;
+}
+
 
 .smaller {
     font-size: 20px;
@@ -162,10 +179,13 @@ height:600px;
     }
 
 .large {
-    font-size: 90px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 50px;
     font-family: 'Avenir LT W02 35 Light',verdana,sans-serif   
 }
+
+/*turn off */
+.mapbox-info-toggle {display: none !important}
 
 /* Attributes */
  #attr {
@@ -247,13 +267,9 @@ div.leaflet-bottom.leaflet-right {
 }
 
 @media (max-width: 670px) {
-    #secondbutton {
-        display: none;
-    }
 
-    #firstbutton {
-        right: 120px;
-    }  
+
+
 }
 
 @media (max-width: 570px) {
@@ -280,12 +296,12 @@ div.leaflet-bottom.leaflet-right {
         display: block;
         right: 5px;
         background-color: #999;
-        bottom: 85px;
+        top: 5px;
     }
     #farms2 {
         display: block;
         right: 5px;
-        bottom: 45px;
+        top: 39px;
         background-color: #999;    
     }
     
@@ -293,6 +309,7 @@ div.leaflet-bottom.leaflet-right {
         display: block;
         background-color: #999;
         right: 5px;
+        top:73px;
     }
     .button-text-large {
         font-size: 15px;
@@ -309,29 +326,34 @@ div.leaflet-bottom.leaflet-right {
         line-height: 17px;
         padding-top: 0px;
     }
-.buttn2 {
-    position: absolute;
-    z-index: 999;
-    height: 35px;
-    width: 80px;
-    font-weight: bold;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    color: #fff;
-    -webkit-border-radius: 0px;
-    border-radius: 0px;
-    font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
-    text-transform: uppercase;
-    border: 1px solid #fff;
-    bottom: 5px;
-}
-
-    #thirdbutton {
-        left: 90px;
+    .buttn2 {
+        position: absolute;
+        z-index: 999;
+        height: 35px;
+        width: 80px;
+        font-weight: bold;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        bottom: 5px;
     }
     #firstbutton {
-        left: 5px;
+        left: 5px;;
+    }
+    #secondbutton {
+        left: 84px;
+    }
+    #thirdbutton {
+        left: 163px;
+    }
+    #fourthbutton {
+        left: 242px;
     }
 
     #info {
